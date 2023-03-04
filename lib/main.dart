@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:private/screen/enrollment_screen.dart';
-import 'package:private/screen/login_screen.dart';
-import 'package:private/screen/password_screen.dart';
+import 'package:private/screens/enrollment_screen.dart';
+import 'package:private/screens/login_screen.dart';
+import 'package:private/screens/password_screen.dart';
 
 void main() {
   runApp(const MyApp());
