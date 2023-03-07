@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:private/screens/enrollment_screen.dart';
+import 'package:private/screens/details_screen.dart';
 import 'package:private/screens/login_screen.dart';
 import 'package:private/screens/password_screen.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginPage(),
+      home: DetailsPage(),
     );
   }
 }

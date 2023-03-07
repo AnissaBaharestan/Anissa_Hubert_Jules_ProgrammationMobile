@@ -4,10 +4,10 @@ class EnrollmentPage extends StatefulWidget {
   const EnrollmentPage({Key? key}) : super(key: key);
 
   @override
-  State<EnrollmentPage> createState() => EnrollmentPageState();
+  State<EnrollmentPage> createState() => _EnrollmentPageState();
 }
 
-class EnrollmentPageState extends State<EnrollmentPage> {
+class _EnrollmentPageState extends State<EnrollmentPage> {
 
   @override
   Widget build(BuildContext context) {

@@ -4,10 +4,10 @@ class PasswordPage extends StatefulWidget {
   const PasswordPage({Key? key}) : super(key: key);
 
   @override
-  State<PasswordPage> createState() => PasswordPageState();
+  State<PasswordPage> createState() => _PasswordPageState();
 }
 
-class PasswordPageState extends State<PasswordPage> {
+class _PasswordPageState extends State<PasswordPage> {
 
   @override
   Widget build(BuildContext context) {
