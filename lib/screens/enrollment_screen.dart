@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:private/screens/home_screen.dart';
 
 class EnrollmentPage extends StatefulWidget {
   const EnrollmentPage({Key? key}) : super(key: key);
@@ -143,7 +144,13 @@ class EnrollmentState extends State<Enrollment> {
               padding: EdgeInsets.symmetric(vertical: 20.0),
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0)),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const HomePage()),
+                );
+              },
               child: Text("S'inscrire",
                   style: TextStyle(
                       color:Colors.white,

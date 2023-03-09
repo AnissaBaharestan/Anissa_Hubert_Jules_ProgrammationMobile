@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:private/screens/enrollment_screen.dart';
 import 'package:private/screens/password_screen.dart';
+import 'package:private/screens/home_screen.dart';
+
 
 
 class LoginPage extends StatefulWidget {
@@ -113,7 +115,13 @@ class LoginState extends State<Login> {
               padding: EdgeInsets.symmetric(vertical: 20.0),
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0)),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const HomePage()),
+                );
+              },
               child: Text("Se connecter",
                   style: TextStyle(
                       color:Colors.white,

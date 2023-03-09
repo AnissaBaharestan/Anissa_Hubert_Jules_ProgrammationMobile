@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'indetails_screen.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'login_screen.dart';
 
 class DetailsPage extends StatefulWidget {
   const DetailsPage({Key? key}) : super (key : key);
@@ -15,19 +17,23 @@ class _DetailsPageState extends State<DetailsPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFF1A2025),
-        leading: BackButton(),
-          title: Text("Détail du jeu", style: TextStyle(
+        leading: IconButton(
+          icon: SvgPicture.asset('assets/icons/back.svg',),
+          onPressed: () {
+          }, ),
+
+          title: Text(" Détail du jeu", style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20,
           ),),
           titleSpacing: -15,
           actions: [
             IconButton(
-                onPressed: (){},
-                icon: Icon(Icons.favorite_border)),
+                icon: SvgPicture.asset('assets/icons/like.svg',),
+              onPressed: () {  }, ),
             IconButton(
-                onPressed: (){},
-                icon: Icon(Icons.star_border)),
+              icon: SvgPicture.asset('assets/icons/whishlist.svg',),
+              onPressed: () {  }, ),
           ],
       ),
       body: Stack(

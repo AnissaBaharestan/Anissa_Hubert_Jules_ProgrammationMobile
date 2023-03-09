@@ -35,6 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.2
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +69,17 @@ flutter:
       - assets/images/details_fond.png
       - assets/images/battlefield.png
       - assets/images/battlefield_fond.png
+      - assets/images/Fondaccueil.png
+      - assets/images/fondjeu.png
+      - assets/images/logojv.png
+      - assets/icons/back.svg
+      - assets/icons/close.svg
+      - assets/icons/empty_whishlist.svg
+      - assets/icons/like.svg
+      - assets/icons/like_full.svg
+      - assets/icons/warning.svg
+      - assets/icons/whishlist.svg
+      - assets/icons/whishlist_full.svg
 
   # assets:
   #   - images/a_dot_burr.jpeg

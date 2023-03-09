@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class ViewPage extends StatefulWidget {
   const ViewPage({Key? key}) : super (key : key);
@@ -23,9 +24,6 @@ class _ViewPageState extends State<ViewPage> {
     });
   }
 
-
-
-
   @override
 
   Widget build(BuildContext context) {
@@ -42,11 +40,11 @@ class _ViewPageState extends State<ViewPage> {
         titleSpacing: -15,
         actions: [
           IconButton(
-              onPressed: (){},
-              icon: Icon(Icons.favorite)),
+            icon: SvgPicture.asset('assets/icons/like.svg',),
+            onPressed: () {  }, ),
           IconButton(
-              onPressed: (){},
-              icon: Icon(Icons.star)),
+            icon: SvgPicture.asset('assets/icons/whishlist.svg',),
+            onPressed: () {  }, ),
         ],
       ),
       body: Stack(
