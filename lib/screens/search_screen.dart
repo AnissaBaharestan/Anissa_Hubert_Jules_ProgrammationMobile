@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import 'details_screen.dart';
 import 'home_screen.dart';
 
 class SearchPage extends StatefulWidget {
@@ -17,10 +18,12 @@ class _SearchPageState extends State<SearchPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Recherche",
+        title: Text("Recherche",
           style:TextStyle(
             fontWeight: FontWeight.bold,
+            fontSize: 20,
           ),),
+        titleSpacing: 15,
         backgroundColor: const Color(0xFF1A2025),
         leading: IconButton(
             icon:  SvgPicture.asset('assets/icons/close.svg',),
@@ -133,7 +136,13 @@ class _SearchPageState extends State<SearchPage> {
                         padding: const EdgeInsets.fromLTRB(15.75,32.5,15.75,32.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
                         child: const Text ("En savoir\n    plus",
                             style: TextStyle(
                                 color:Colors.white,
@@ -181,7 +190,13 @@ class _SearchPageState extends State<SearchPage> {
                         padding: const EdgeInsets.fromLTRB(15.75,32.5,15.75,32.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
                         child: const Text ("En savoir\n    plus",
                             style: TextStyle(
                                 color:Colors.white,
@@ -229,7 +244,13 @@ class _SearchPageState extends State<SearchPage> {
                         padding: const EdgeInsets.fromLTRB(15.75,32.5,15.75,32.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
                         child: const Text ("En savoir\n    plus",
                             style: TextStyle(
                                 color:Colors.white,
@@ -276,7 +297,13 @@ class _SearchPageState extends State<SearchPage> {
                         padding: const EdgeInsets.fromLTRB(15.75,32.5,15.75,32.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
                         child: const Text ("En savoir\n    plus",
                             style: TextStyle(
                                 color:Colors.white,
@@ -322,7 +349,13 @@ class _SearchPageState extends State<SearchPage> {
                         padding: const EdgeInsets.fromLTRB(15.75,32.5,15.75,32.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
                         child: const Text ("En savoir\n    plus",
                             style: TextStyle(
                                 color:Colors.white,

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:private/screens/search_screen.dart';
 
+import 'details_screen.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -136,7 +138,13 @@ class _HomePageState extends State<HomePage> {
                         padding: EdgeInsets.fromLTRB(35,10, 35, 10),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
 
                         child: const Text("En savoir plus",
                             style: TextStyle(
@@ -146,8 +154,6 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                     ),
-
-
 
                     Container(
                       decoration: const BoxDecoration(
@@ -197,7 +203,13 @@ class _HomePageState extends State<HomePage> {
                         padding: const EdgeInsets.fromLTRB(15.75,32.5,15.75,32.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
                         child: const Text ("En savoir\n    plus",
                             style: TextStyle(
                                 color:Colors.white,
@@ -248,7 +260,13 @@ class _HomePageState extends State<HomePage> {
                         padding: const EdgeInsets.fromLTRB(15.75,32.5,15.75,32.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
 
                         child: const Text ("En savoir\n    plus",
                             style: TextStyle(
@@ -304,7 +322,13 @@ class _HomePageState extends State<HomePage> {
                         padding: const EdgeInsets.fromLTRB(15.75,32.5,15.75,32.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5.0)),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const DetailsPage()),
+                          );
+                        },
 
                         child: const Text ("En savoir\n    plus",
                             style: TextStyle(

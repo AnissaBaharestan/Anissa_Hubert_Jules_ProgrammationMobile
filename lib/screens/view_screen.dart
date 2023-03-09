@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import 'details_screen.dart';
+
 class ViewPage extends StatefulWidget {
   const ViewPage({Key? key}) : super (key : key);
   @override
@@ -32,8 +34,10 @@ class _ViewPageState extends State<ViewPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFF1A2025),
-        leading: BackButton(),
-        title: Text("Détail du jeu", style: TextStyle(
+        leading: IconButton(
+          icon: SvgPicture.asset('assets/icons/back.svg',),
+          onPressed: () {}, ),
+        title: Text(" Détail du jeu", style: TextStyle(
           fontWeight: FontWeight.bold,
           fontSize: 20,
         ),),
@@ -88,7 +92,13 @@ class _ViewPageState extends State<ViewPage> {
                             color:Colors.white,
                             fontSize: 16.0)
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const DetailsPage()),
+                      );
+                    },
                   ),
                 ),
                 Positioned(

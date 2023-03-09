@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:private/screens/view_screen.dart';
 import 'indetails_screen.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'login_screen.dart';
@@ -19,14 +20,12 @@ class _DetailsPageState extends State<DetailsPage> {
         backgroundColor: Color(0xFF1A2025),
         leading: IconButton(
           icon: SvgPicture.asset('assets/icons/back.svg',),
-          onPressed: () {
-          }, ),
-
+          onPressed: () {}, ),
           title: Text(" Détail du jeu", style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20,
           ),),
-          titleSpacing: -15,
+          //titleSpacing: -15,
           actions: [
             IconButton(
                 icon: SvgPicture.asset('assets/icons/like.svg',),
@@ -92,7 +91,13 @@ class _DetailsPageState extends State<DetailsPage> {
                             color:Colors.white,
                             fontSize: 16.0)
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const ViewPage()),
+                      );
+                    },
                   ),
                   ),
 
