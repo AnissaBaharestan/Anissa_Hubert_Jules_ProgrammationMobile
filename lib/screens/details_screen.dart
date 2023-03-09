@@ -14,9 +14,9 @@ class _DetailsPageState extends State<DetailsPage> {
     var width = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF1E262C),
+        backgroundColor: Color(0xFF1A2025),
         leading: BackButton(),
-          title: Text("Détails du jeu", style: TextStyle(
+          title: Text("Détail du jeu", style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20,
           ),),
@@ -51,7 +51,7 @@ class _DetailsPageState extends State<DetailsPage> {
                     height: 580,
                     width: 500,
                     decoration: BoxDecoration(
-                      color: Color(0xFF1E262C),
+                      color: Color(0xFF1A2025),
                     ),
                   ),
                 ),
@@ -61,7 +61,7 @@ class _DetailsPageState extends State<DetailsPage> {
                   left: 10,
                   child: RawMaterialButton(
                     fillColor: Color(0xFF636AF6),
-                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+                    padding: EdgeInsets.symmetric(vertical: 12, horizontal: 40),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(5.0)),
                     onPressed: () {},
@@ -78,7 +78,7 @@ class _DetailsPageState extends State<DetailsPage> {
                   child: OutlinedButton(
                     style: OutlinedButton.styleFrom(
                       side: BorderSide(width: 2, color: Color(0xFF636AF6)),
-                      padding: EdgeInsets.symmetric(vertical: 10, horizontal: 90),
+                      padding: EdgeInsets.symmetric(vertical: 12, horizontal: 90),
                     ),
                     child: Text("AVIS",
                         style: TextStyle(
@@ -117,7 +117,7 @@ class _DetailsPageState extends State<DetailsPage> {
                               image: const DecorationImage(
                                   image: AssetImage("assets/images/battlefield_fond.png"),fit: BoxFit.cover)
                           ),
-                          child: const InDetailsPage(),
+                          child: const InViewPage(),
                         ),
                       ],
                     ),

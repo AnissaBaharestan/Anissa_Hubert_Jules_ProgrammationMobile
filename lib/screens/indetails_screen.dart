@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class InDetailsPage extends StatefulWidget {
-  const InDetailsPage({Key? key}) : super (key : key);
+class InViewPage extends StatefulWidget {
+  const InViewPage({Key? key}) : super (key : key);
   @override
-  State<InDetailsPage> createState() => _InDetailsPageState();
+  State<InViewPage> createState() => _InViewPageState();
 }
 
-class _InDetailsPageState extends State<InDetailsPage> {
+class _InViewPageState extends State<InViewPage> {
   @override
   Widget build(BuildContext context) {
     return Row(

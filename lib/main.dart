@@ -3,6 +3,7 @@ import 'package:private/screens/enrollment_screen.dart';
 import 'package:private/screens/details_screen.dart';
 import 'package:private/screens/login_screen.dart';
 import 'package:private/screens/password_screen.dart';
+import 'package:private/screens/view_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DetailsPage(),
+      home: ViewPage(),
     );
   }
 }

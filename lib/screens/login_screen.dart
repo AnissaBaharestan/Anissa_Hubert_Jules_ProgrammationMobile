@@ -162,7 +162,6 @@ class LoginState extends State<Login> {
                           builder: (context) => const PasswordPage()),
                     );
                 },
-
                 child: const Text("Mot de passe oublié",
                 style: TextStyle(
                   color: Colors.white,

@@ -51,6 +51,9 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+
+five_pointed_star: ^1.0.3
+
 flutter:
 
   # The following line ensures that the Material Icons font is
