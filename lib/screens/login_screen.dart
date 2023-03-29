@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:private/screens/enrollment_screen.dart';
 import 'package:private/screens/password_screen.dart';
 import 'package:private/screens/home_screen.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 
 
@@ -52,6 +53,7 @@ class LoginState extends State<Login> {
             child: const Text("Bienvenue!",
               textAlign: TextAlign.center,
               style: TextStyle(
+                fontFamily: "Proxima Nova",
                 color: Colors.white,
                 fontSize: 35.0,
                 fontWeight: FontWeight.bold,

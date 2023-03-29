@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.2
+  flutter_bloc: any
 
 dev_dependencies:
   flutter_test:
@@ -80,6 +81,18 @@ flutter:
       - assets/icons/warning.svg
       - assets/icons/whishlist.svg
       - assets/icons/whishlist_full.svg
+
+      - assets/fonts/
+
+  fonts:
+    - family: Google Sans
+
+      fonts:
+        - asset: assets/fonts/GoogleSans-Bold.ttf
+
+    - family: Proxima Nova
+      fonts:
+        - asset: assets/fonts/Proxima Nova Font.otf
 
   # assets:
   #   - images/a_dot_burr.jpeg
