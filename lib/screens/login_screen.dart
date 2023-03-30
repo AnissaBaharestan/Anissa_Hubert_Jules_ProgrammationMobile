@@ -53,7 +53,7 @@ class LoginState extends State<Login> {
             child: const Text("Bienvenue!",
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontFamily: "Proxima Nova",
+                fontFamily: "Google Sans",
                 color: Colors.white,
                 fontSize: 35.0,
                 fontWeight: FontWeight.bold,
@@ -69,6 +69,7 @@ class LoginState extends State<Login> {
               textAlign: TextAlign.center,
               style : TextStyle(
                 color: Colors.white,
+                fontFamily: "Proxima Nova",
                 fontSize:17.0,
                 fontWeight: FontWeight.normal,
               ),
@@ -79,7 +80,9 @@ class LoginState extends State<Login> {
           ),
           TextField(
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(
+                color: Colors.white,
+              fontFamily: "Proxima Nova",),
             decoration: InputDecoration(
               hintStyle: TextStyle(color: Colors.white),
               hintText: "E-mail",
@@ -95,7 +98,7 @@ class LoginState extends State<Login> {
           ),
           TextField(
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(color: Colors.white, fontFamily: "Proxima Nova",),
             decoration: InputDecoration(
               hintStyle: TextStyle(color: Colors.white),
               hintText: "Mot de passe",
@@ -127,6 +130,7 @@ class LoginState extends State<Login> {
               child: Text("Se connecter",
                   style: TextStyle(
                       color:Colors.white,
+                      fontFamily: "Proxima Nova",
                       fontSize: 17.0)
               ),
             ),
@@ -144,6 +148,7 @@ class LoginState extends State<Login> {
              ),
               child: Text("Créer un nouveau compte",
                   style: TextStyle(
+                      fontFamily: "Proxima Nova",
                       color:Colors.white,
                       fontSize: 17.0)
               ),
@@ -176,6 +181,7 @@ class LoginState extends State<Login> {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
+                    fontFamily: "Proxima Nova",
                   decoration: TextDecoration.underline)
                 ),
                 ),

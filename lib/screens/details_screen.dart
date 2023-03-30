@@ -23,6 +23,7 @@ class _DetailsPageState extends State<DetailsPage> {
           onPressed: () {}, ),
           title: Text(" Détail du jeu", style: TextStyle(
             fontWeight: FontWeight.bold,
+            fontFamily: "Proxima Nova",
             fontSize: 20,
           ),),
           //titleSpacing: -15,
@@ -108,10 +109,10 @@ class _DetailsPageState extends State<DetailsPage> {
                         textAlign: TextAlign.left,
                         style: TextStyle(
                             color:Colors.white,
-                            fontSize: 17.0),
+                            fontFamily: "Proxima Nova",
+                            fontSize: 18.0),
                     ),
                   ),
-
 
                 Positioned(
                   top: 270,

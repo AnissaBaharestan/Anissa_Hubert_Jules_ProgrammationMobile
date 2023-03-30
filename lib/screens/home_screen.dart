@@ -74,6 +74,7 @@ class _HomePageState extends State<HomePage> {
                                     style: TextStyle(
                                       color:Colors.white,
                                       fontSize: 12.0,
+                                      fontFamily: "Proxima Nova",
                                     ),
 
                                     decoration: InputDecoration(
@@ -127,7 +128,7 @@ class _HomePageState extends State<HomePage> {
 
                               child: const Text(
                                 "Titan Fall 2 \nUltimate Edition",
-                                style: TextStyle(color: Colors.white, fontSize: 20.0,),
+                                style: TextStyle(color: Colors.white, fontSize: 20.0,fontFamily: "Google Sans"),
                               ),
                             ),
 
@@ -138,7 +139,7 @@ class _HomePageState extends State<HomePage> {
                               margin: const EdgeInsets.only(left:15, top: 10),
                               child: const Text(
                                 "Une description d'un jeu mis en avant\n(peut être coder en dur)",
-                                style: TextStyle(color: Colors.white, fontSize: 12.0,),
+                                style: TextStyle(color: Colors.white, fontSize: 12.0,fontFamily: "Proxima Nova",),
                               ),
                             ),
 
@@ -192,7 +193,7 @@ class _HomePageState extends State<HomePage> {
 
                 child: const Text(
                   "Les meilleurs ventes",
-                  style: TextStyle(color: Colors.white, fontSize: 12.0,decoration: TextDecoration.underline,),
+                  style: TextStyle(color: Colors.white, fontSize: 13.0,decoration: TextDecoration.underline, fontFamily: "Proxima Nova",),
                 ),
               ),
 
@@ -227,7 +228,7 @@ class _HomePageState extends State<HomePage> {
                             margin: const EdgeInsets.only(left:100, top: 20),
 
                             child: const Text("Nom du jeu",
-                              style: TextStyle(color: Colors.white, fontSize: 15.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 15.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
 
@@ -241,7 +242,7 @@ class _HomePageState extends State<HomePage> {
 
                             child: const Text(
                               "Nom de l'éditeur\n \nPrix: 10,00 €",
-                              style: TextStyle(color: Colors.white, fontSize: 10.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 10.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
                         ],
@@ -275,7 +276,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text ("En savoir\n    plus",
                           style: TextStyle(
                               color:Colors.white,
-                              fontSize: 20.0
+                              fontSize: 20.0,
+                            fontFamily: "Proxima Nova",
                           )
                       ),
                     ),
@@ -313,7 +315,7 @@ class _HomePageState extends State<HomePage> {
                             margin: const EdgeInsets.only(left:100, top: 20),
 
                             child: const Text("Nom du jeu",
-                              style: TextStyle(color: Colors.white, fontSize: 15.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 15.0,fontFamily: "Proxima Nova"),
                             ),
                           ),
 
@@ -327,7 +329,7 @@ class _HomePageState extends State<HomePage> {
 
                             child: const Text(
                               "Nom de l'éditeur\n \nPrix: 10,00 €",
-                              style: TextStyle(color: Colors.white, fontSize: 10.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 10.0,fontFamily: "Proxima Nova"),
                             ),
                           ),
                         ],
@@ -359,7 +361,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text ("En savoir\n    plus",
                           style: TextStyle(
                               color:Colors.white,
-                              fontSize: 20.0
+                              fontSize: 20.0,
+                            fontFamily: "Proxima Nova"
                           )
                       ),
                     ),
@@ -396,7 +399,7 @@ class _HomePageState extends State<HomePage> {
                             margin: const EdgeInsets.only(left:100, top: 20),
 
                             child: const Text("Nom du jeu",
-                              style: TextStyle(color: Colors.white, fontSize: 15.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 15.0,fontFamily: "Proxima Nova"),
                             ),
                           ),
 
@@ -410,7 +413,7 @@ class _HomePageState extends State<HomePage> {
 
                             child: const Text(
                               "Nom de l'éditeur\n \nPrix: 10,00 €",
-                              style: TextStyle(color: Colors.white, fontSize: 10.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 10.0,fontFamily: "Proxima Nova"),
                             ),
                           ),
                         ],
@@ -442,7 +445,8 @@ class _HomePageState extends State<HomePage> {
                       child: const Text ("En savoir\n    plus",
                           style: TextStyle(
                               color:Colors.white,
-                              fontSize: 20.0
+                              fontSize: 20.0,
+                            fontFamily: "Proxima Nova"
                           )
                       ),
                     ),

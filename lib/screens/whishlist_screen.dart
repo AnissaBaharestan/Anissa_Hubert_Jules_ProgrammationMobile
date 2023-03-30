@@ -460,7 +460,6 @@ class venteTop5 extends StatelessWidget{
     );
   }
 }
-
 // Afficher l'aperçu du Top5
 
 class apptop5 extends StatelessWidget{

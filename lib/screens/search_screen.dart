@@ -31,7 +31,6 @@ class _SearchPageState extends State<SearchPage> {
       appBar: AppBar(
         title: const Text("Recherche"),
         backgroundColor: const Color(0xFF1A2025),
-
         leading: IconButton(
             icon:  SvgPicture.asset('assets/icons/close.svg',),
             onPressed: () {}
@@ -76,7 +75,7 @@ class _SearchPageState extends State<SearchPage> {
 
                                     decoration: InputDecoration(
                                       hintText: 'Recherche un jeu...',
-                                      hintStyle: TextStyle(color: Colors.white, fontSize: 12.0),
+                                      hintStyle: TextStyle(color: Colors.white, fontSize: 12.0,fontFamily: "Proxima Nova",),
                                       contentPadding: EdgeInsets.all(10),
                                       border: InputBorder.none,
                                     ),
@@ -110,7 +109,7 @@ class _SearchPageState extends State<SearchPage> {
 
                 child: const Text(
                   "Nombre de résultats: 42",
-                  style: TextStyle(color: Colors.white, fontSize: 12.0,),
+                  style: TextStyle(color: Colors.white, fontSize: 13.0,fontFamily: "Proxima Nova",),
                 ),
               ),
 
@@ -143,7 +142,7 @@ class _SearchPageState extends State<SearchPage> {
                             margin: const EdgeInsets.only(left:100, top: 20),
 
                             child: const Text("Nom du jeu",
-                              style: TextStyle(color: Colors.white, fontSize: 15.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 15.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
 
@@ -157,7 +156,7 @@ class _SearchPageState extends State<SearchPage> {
 
                             child: const Text(
                               "Nom de l'éditeur\n \nPrix: 10,00 €",
-                              style: TextStyle(color: Colors.white, fontSize: 10.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 10.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
                         ],
@@ -174,9 +173,9 @@ class _SearchPageState extends State<SearchPage> {
                   ),
 
                   Positioned(
-                    left: 294,
+                    left: 300,
                     top: 0,
-
+                    bottom: 11,
                     child:
 
                     RawMaterialButton(
@@ -191,6 +190,7 @@ class _SearchPageState extends State<SearchPage> {
                       child: const Text ("En savoir\n    plus",
                           style: TextStyle(
                               color:Colors.white,
+                              fontFamily: "Proxima Nova",
                               fontSize: 20.0
                           )
                       ),
@@ -229,7 +229,7 @@ class _SearchPageState extends State<SearchPage> {
                             margin: const EdgeInsets.only(left:100, top: 20),
 
                             child: const Text("Nom du jeu",
-                              style: TextStyle(color: Colors.white, fontSize: 15.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 15.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
 
@@ -243,7 +243,7 @@ class _SearchPageState extends State<SearchPage> {
 
                             child: const Text(
                               "Nom de l'éditeur\n \nPrix: 10,00 €",
-                              style: TextStyle(color: Colors.white, fontSize: 10.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 10.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
                         ],
@@ -260,9 +260,9 @@ class _SearchPageState extends State<SearchPage> {
                   ),
 
                   Positioned(
-                    left: 294,
+                    left: 300,
                     top: 0,
-
+                    bottom: 11,
                     child:
 
                     RawMaterialButton(
@@ -273,10 +273,10 @@ class _SearchPageState extends State<SearchPage> {
                       onPressed: () {
                         print("Hello");
                       },
-
                       child: const Text ("En savoir\n    plus",
                           style: TextStyle(
                               color:Colors.white,
+                              fontFamily: "Proxima Nova",
                               fontSize: 20.0
                           )
                       ),
@@ -298,24 +298,18 @@ class _SearchPageState extends State<SearchPage> {
                           image: AssetImage('assets/images/fondjeu.png'),
                         ),
                       ),
-
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
-
                         children: [
-
                           Container(
                             decoration: const BoxDecoration(
                               color: Colors.transparent,
-
                             ),
-
                             padding: const EdgeInsets.fromLTRB(5,5,5,0),
                             margin: const EdgeInsets.only(left:100, top: 20),
-
                             child: const Text("Nom du jeu",
-                              style: TextStyle(color: Colors.white, fontSize: 15.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 15.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
 
@@ -323,13 +317,11 @@ class _SearchPageState extends State<SearchPage> {
                             decoration: const BoxDecoration(
                               color: Colors.transparent,
                             ),
-
                             padding: const EdgeInsets.fromLTRB(5,0,5,5),
                             margin: const EdgeInsets.only(left:100, top: 10),
-
                             child: const Text(
                               "Nom de l'éditeur\n \nPrix: 10,00 €",
-                              style: TextStyle(color: Colors.white, fontSize: 10.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 10.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
                         ],
@@ -346,8 +338,9 @@ class _SearchPageState extends State<SearchPage> {
                   ),
 
                   Positioned(
-                    left: 294,
+                    left: 300,
                     top: 0,
+                    bottom: 11,
                     child:
                     RawMaterialButton(
                       fillColor: Color(0xFF636AF6),
@@ -361,6 +354,7 @@ class _SearchPageState extends State<SearchPage> {
                       child: const Text ("En savoir\n    plus",
                           style: TextStyle(
                               color:Colors.white,
+                              fontFamily: "Proxima Nova",
                               fontSize: 20.0
                           )
                       ),
@@ -386,20 +380,15 @@ class _SearchPageState extends State<SearchPage> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
-
                         children: [
-
                           Container(
                             decoration: const BoxDecoration(
                               color: Colors.transparent,
-
                             ),
-
                             padding: const EdgeInsets.fromLTRB(5,5,5,0),
                             margin: const EdgeInsets.only(left:100, top: 20),
-
                             child: const Text("Nom du jeu",
-                              style: TextStyle(color: Colors.white, fontSize: 15.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 15.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
 
@@ -407,20 +396,17 @@ class _SearchPageState extends State<SearchPage> {
                             decoration: const BoxDecoration(
                               color: Colors.transparent,
                             ),
-
                             padding: const EdgeInsets.fromLTRB(5,0,5,5),
                             margin: const EdgeInsets.only(left:100, top: 10),
-
                             child: const Text(
                               "Nom de l'éditeur\n \nPrix: 10,00 €",
-                              style: TextStyle(color: Colors.white, fontSize: 10.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 10.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
                         ],
                       ),
                     ),
                   ),
-
 
                   Positioned(
                     top: 9,
@@ -431,8 +417,9 @@ class _SearchPageState extends State<SearchPage> {
                   ),
 
                   Positioned(
-                    left: 294,
+                    left: 300,
                     top: 0,
+                    bottom: 11,
                     child:
                     RawMaterialButton(
                       fillColor: Color(0xFF636AF6),
@@ -446,6 +433,7 @@ class _SearchPageState extends State<SearchPage> {
                       child: const Text ("En savoir\n    plus",
                           style: TextStyle(
                               color:Colors.white,
+                              fontFamily: "Proxima Nova",
                               fontSize: 20.0
                           )
                       ),
@@ -471,19 +459,15 @@ class _SearchPageState extends State<SearchPage> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
-
                         children: [
-
                           Container(
                             decoration: const BoxDecoration(
                               color: Colors.transparent,
                             ),
-
                             padding: const EdgeInsets.fromLTRB(5,5,5,0),
                             margin: const EdgeInsets.only(left:100, top: 20),
-
                             child: const Text("Nom du jeu",
-                              style: TextStyle(color: Colors.white, fontSize: 15.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 15.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
 
@@ -491,13 +475,11 @@ class _SearchPageState extends State<SearchPage> {
                             decoration: const BoxDecoration(
                               color: Colors.transparent,
                             ),
-
                             padding: const EdgeInsets.fromLTRB(5,0,5,5),
                             margin: const EdgeInsets.only(left:100, top: 10),
-
                             child: const Text(
                               "Nom de l'éditeur\n \nPrix: 10,00 €",
-                              style: TextStyle(color: Colors.white, fontSize: 10.0,),
+                              style: TextStyle(color: Colors.white, fontSize: 10.0,fontFamily: "Proxima Nova",),
                             ),
                           ),
                         ],
@@ -514,8 +496,9 @@ class _SearchPageState extends State<SearchPage> {
                   ),
 
                   Positioned(
-                    left: 294,
+                    left: 300,
                     top: 0,
+                    bottom: 11,
                     child:
                     RawMaterialButton(
                       fillColor: Color(0xFF636AF6),
@@ -525,10 +508,10 @@ class _SearchPageState extends State<SearchPage> {
                       onPressed: () {
                         print("Hello");
                       },
-
                       child: const Text ("En savoir\n    plus",
                           style: TextStyle(
                               color:Colors.white,
+                              fontFamily: "Proxima Nova",
                               fontSize: 20.0
                           )
                       ),

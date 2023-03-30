@@ -27,7 +27,6 @@ class _ViewPageState extends State<ViewPage> {
   }
 
   @override
-
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
@@ -39,6 +38,7 @@ class _ViewPageState extends State<ViewPage> {
           onPressed: () {}, ),
         title: Text(" Détail du jeu", style: TextStyle(
           fontWeight: FontWeight.bold,
+          fontFamily: "Google Sans",
           fontSize: 20,
         ),),
         titleSpacing: -15,
@@ -135,6 +135,7 @@ class _ViewPageState extends State<ViewPage> {
                             style: TextStyle(
                                 color:Colors.white,
                                 fontSize: 16.0,
+                                fontFamily: "Proxima Nova",
                                 decoration: TextDecoration.underline)
                         ),
                       ),
@@ -205,6 +206,7 @@ class _ViewPageState extends State<ViewPage> {
                         child: Text("Nom de l'utilisateur",
                             style: TextStyle(
                                 color:Colors.white,
+                                fontFamily: "Proxima Nova",
                                 fontSize: 16.0,
                                 decoration: TextDecoration.underline)
                         ),
@@ -277,6 +279,7 @@ class _ViewPageState extends State<ViewPage> {
                         child: Text("Nom du jeu \nNom de l'éditeur",
                             style: TextStyle(
                                 color:Colors.white,
+                              fontFamily: "Proxima Nova",
                                 fontSize: 16.0,
                         ),
                       ),

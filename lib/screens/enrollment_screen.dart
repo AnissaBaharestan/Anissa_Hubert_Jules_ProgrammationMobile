@@ -49,6 +49,7 @@ class EnrollmentState extends State<Enrollment> {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white,
+                fontFamily: "Google Sans",
                 fontSize: 35.0,
                 fontWeight: FontWeight.bold,
               ),
@@ -63,6 +64,7 @@ class EnrollmentState extends State<Enrollment> {
               textAlign: TextAlign.center,
               style : TextStyle(
                 color: Colors.white,
+                fontFamily: "Proxima Nova",
                 fontSize:18.0,
                 fontWeight: FontWeight.normal,
               ),
@@ -73,7 +75,7 @@ class EnrollmentState extends State<Enrollment> {
           ),
           TextField(
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white, fontSize: 17.0),
+            style: TextStyle(color: Colors.white, fontSize: 17.0, fontFamily: "Proxima Nova",),
             decoration: InputDecoration(
               hintStyle: TextStyle(color: Colors.white),
               hintText: "Nom d'utilisateur",
@@ -89,7 +91,7 @@ class EnrollmentState extends State<Enrollment> {
           ),
           TextField(
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white, fontSize: 17.0),
+            style: TextStyle(color: Colors.white, fontSize: 17.0, fontFamily: "Proxima Nova",),
             decoration: InputDecoration(
               hintStyle: TextStyle(color: Colors.white),
               hintText: "Email",
@@ -105,7 +107,7 @@ class EnrollmentState extends State<Enrollment> {
           ),
           TextField(
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white, fontSize: 17.0),
+            style: TextStyle(color: Colors.white, fontSize: 17.0, fontFamily: "Proxima Nova",),
             decoration: InputDecoration(
               hintStyle: TextStyle(color: Colors.white),
               hintText: "Mot de passe",
@@ -122,7 +124,7 @@ class EnrollmentState extends State<Enrollment> {
           ),
           TextField(
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white, fontSize: 17.0),
+            style: TextStyle(color: Colors.white, fontSize: 17.0, fontFamily: "Proxima Nova",),
             decoration: InputDecoration(
               hintStyle: TextStyle(color: Colors.white),
               hintText: "Vérification du mot de passe",
@@ -154,6 +156,7 @@ class EnrollmentState extends State<Enrollment> {
               child: Text("S'inscrire",
                   style: TextStyle(
                       color:Colors.white,
+                      fontFamily: "Proxima Nova",
                       fontSize: 17.0)
               ),
             ),
