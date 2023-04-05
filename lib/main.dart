@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:private/apis/game1.dart';
 import 'package:private/screens/enrollment_screen.dart';
 import 'package:private/screens/details_screen.dart';
 import 'package:private/screens/like_screen.dart';
@@ -10,8 +11,6 @@ import 'package:private/screens/search_screen.dart';
 import 'package:private/screens/whishlist_screen.dart';
 import 'package:private/screens/whishlistempty_screen.dart';
 import 'package:private/screens/likeempty_screen.dart';
-
-
 
 
 void main() {
@@ -30,7 +29,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WishlistEmptyPage(),
+      home: HomePage(),
     );
   }
 }

@@ -4,8 +4,6 @@ import 'package:private/screens/password_screen.dart';
 import 'package:private/screens/home_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-
-
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
 
