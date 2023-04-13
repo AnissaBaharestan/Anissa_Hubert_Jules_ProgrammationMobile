@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import 'home_screen.dart';
+
 class SearchPage extends StatefulWidget {
   const SearchPage({Key? key}) : super(key: key);
 
@@ -18,7 +20,14 @@ class _SearchPageState extends State<SearchPage> {
         backgroundColor: const Color(0xFF1A2025),
         leading: IconButton(
             icon:  SvgPicture.asset('assets/icons/close.svg',),
-            onPressed: () {}
+            onPressed: () {
+  Navigator.push(
+  context,
+  MaterialPageRoute(
+  builder: (context) => const HomePage()),
+  );
+  },
+
         ),
       ),
 
