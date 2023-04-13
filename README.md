@@ -6,8 +6,8 @@ L'objectif est de lier un backend permettant de gérer l'authentification, tout 
 
 
 Réalisé par : 
-Anissa BAHARESTAN
-Hubert Biard De Lary De Latour
+Anissa Baharestan,
+Hubert Biard De Lary De Latour,
 Jules Rouillard
 
 Nous sommes étudiants de l'ECE Paris.
