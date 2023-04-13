@@ -1,16 +1,13 @@
-# private
+Bonjour et bienvenue sur notre projet de Flutter. 
 
-A new Flutter project.
+Nous avons réalisé une application mobile en Flutter permettant à un utilisateur d'indiquer quels sont ses jeux vidéos favoris à travers l'API de Steam.
 
-## Getting Started
+L'objectif est de lier un backend permettant de gérer l'authentification, tout comme les choix faits par les utilisateurs.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Réalisé par : 
+Anissa BAHARESTAN
+Hubert Biard De Lary De Latour
+Jules Rouillard
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Nous sommes étudiants de l'ECE Paris.
